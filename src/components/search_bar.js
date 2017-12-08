@@ -13,7 +13,7 @@ class SearchBar extends Component {
     super(props); // call the Component's constructor method
 
     // assign an object to state. the object has a property.
-    this.state = { term: '123' }; // user's search term will be recorded whenever the input is changed.
+    this.state = { term: '' }; // user's search term will be recorded whenever the input is changed.
   }
 
   // This is how method on class is defined. (이게 바로 컴포넌트!)
